@@ -5,9 +5,10 @@
 //  Created by ismail harmanda on 8.05.2023.
 //
 
-let skeleton = Enemy()
+let skeleton1 = Enemy(health:100,attackStrength:10)
+let skeleton2 = skeleton1
 
-let dragon = Dragon()
+let dragon = Dragon(health: 200,attackStrength: 10)
 dragon.wingSpan=5
 dragon.attackStrength=15
 dragon.move()
